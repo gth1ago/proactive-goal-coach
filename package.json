@@ -1,0 +1,40 @@
+{
+  "name": "proactive-goal-coach",
+  "version": "1.0.0",
+  "description": "Assistente pessoal inteligente para objetivos de longo prazo",
+  "scripts": {
+    "install:all": "cd backend && pip install -r requirements.txt && pip install -r requirements-test.txt && cd ../frontend && npm install && cd ../tests/frontend && npm install",
+    "dev:backend": "cd backend && uvicorn main:app --reload",
+    "dev:frontend": "cd frontend && npm start",
+    "test:backend": "pytest",
+    "test:backend:unit": "pytest tests/backend/unit -m unit",
+    "test:backend:integration": "pytest tests/backend/integration -m integration",
+    "test:backend:functional": "pytest tests/backend/functional -m functional",
+    "test:backend:coverage": "pytest --cov=backend --cov-report=html",
+    "test:frontend": "cd tests/frontend && npm test",
+    "test:frontend:coverage": "cd tests/frontend && npm run test:coverage",
+    "test:e2e": "cypress run --config-file tests/e2e/cypress.config.js",
+    "test:e2e:open": "cypress open --config-file tests/e2e/cypress.config.js",
+    "test:all": "npm run test:backend && npm run test:frontend && npm run test:e2e",
+    "lint:backend": "cd backend && flake8 .",
+    "lint:frontend": "cd frontend && npm run lint",
+    "build:frontend": "cd frontend && npm run build",
+    "start:prod": "cd backend && uvicorn main:app --host 0.0.0.0 --port 8000"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "concurrently": "^8.2.0"
+  },
+  "keywords": [
+    "goals",
+    "productivity",
+    "ai",
+    "coaching",
+    "react",
+    "fastapi",
+    "typescript",
+    "python"
+  ],
+  "author": "Amazon Q Developer",
+  "license": "MIT"
+}

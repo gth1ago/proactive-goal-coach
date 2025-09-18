@@ -1,0 +1,79 @@
+[
+  {
+    "id": "goal_1",
+    "title": "Aprender React Testing",
+    "description": "Dominar testes em React com Jest e Testing Library",
+    "progress": 60.0,
+    "status": "active",
+    "created_at": "2024-01-01T10:00:00Z",
+    "updated_at": "2024-01-02T15:30:00Z",
+    "tags": ["react", "testing", "frontend"],
+    "micro_goals": [
+      {
+        "id": "micro_1_1",
+        "title": "Configurar ambiente de testes",
+        "description": "Setup Jest e Testing Library",
+        "status": "completed",
+        "priority": "high",
+        "estimated_time": 60,
+        "created_at": "2024-01-01T10:00:00Z",
+        "completed_at": "2024-01-01T11:00:00Z",
+        "goal_id": "goal_1"
+      },
+      {
+        "id": "micro_1_2",
+        "title": "Escrever testes unitários",
+        "description": "Criar testes para componentes básicos",
+        "status": "completed",
+        "priority": "high",
+        "estimated_time": 120,
+        "created_at": "2024-01-01T10:00:00Z",
+        "completed_at": "2024-01-02T14:00:00Z",
+        "goal_id": "goal_1"
+      },
+      {
+        "id": "micro_1_3",
+        "title": "Implementar testes de integração",
+        "description": "Testar fluxos completos da aplicação",
+        "status": "pending",
+        "priority": "medium",
+        "estimated_time": 180,
+        "created_at": "2024-01-01T10:00:00Z",
+        "goal_id": "goal_1"
+      }
+    ]
+  },
+  {
+    "id": "goal_2",
+    "title": "Melhorar Performance da API",
+    "description": "Otimizar endpoints e reduzir tempo de resposta",
+    "progress": 25.0,
+    "status": "active",
+    "created_at": "2024-01-03T09:00:00Z",
+    "updated_at": "2024-01-03T09:00:00Z",
+    "tags": ["backend", "performance", "api"],
+    "micro_goals": [
+      {
+        "id": "micro_2_1",
+        "title": "Analisar gargalos atuais",
+        "description": "Identificar endpoints mais lentos",
+        "status": "completed",
+        "priority": "high",
+        "estimated_time": 90,
+        "created_at": "2024-01-03T09:00:00Z",
+        "completed_at": "2024-01-03T10:30:00Z",
+        "goal_id": "goal_2"
+      },
+      {
+        "id": "micro_2_2",
+        "title": "Implementar cache Redis",
+        "description": "Adicionar cache para queries frequentes",
+        "status": "pending",
+        "priority": "high",
+        "estimated_time": 240,
+        "created_at": "2024-01-03T09:00:00Z",
+        "goal_id": "goal_2"
+      }
+    ]
+  }
+]

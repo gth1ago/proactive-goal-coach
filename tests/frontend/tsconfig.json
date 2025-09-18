@@ -1,0 +1,12 @@
+{
+  "extends": "../../frontend/tsconfig.json",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["jest", "@testing-library/jest-dom"]
+  },
+  "include": [
+    "src/**/*",
+    "../../frontend/src/**/*"
+  ]
+}
