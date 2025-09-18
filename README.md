@@ -39,17 +39,25 @@ proactive-goal-coach/
 
 ## 📸 Screenshots
 
-### Dashboard Principal
-![Dashboard](screenshots/dashboard.png)
+### Tela Inicial
+![Tela Inicial](screenshots/tela_inicial.png)
+*Interface principal do Proactive Goal Coach em funcionamento*
+
+### Frontend - Dashboard
+![Frontend](screenshots/frontend.png)
 *Dashboard com progresso, sugestões contextuais e estatísticas em tempo real*
 
-### Gerenciamento de Objetivos
-![Objetivos](screenshots/goals.png)
-*Interface para criar e gerenciar objetivos com micro-metas geradas por IA*
+### Inserção de Meta
+![Inserção de Meta](screenshots/insercao_meta.png)
+*Criação de novo objetivo com micro-metas geradas automaticamente pela IA*
 
-### API Documentation
-![API Docs](screenshots/api-docs.png)
-*Documentação automática da API FastAPI*
+### Backend em Execução
+![Backend](screenshots/backend.png)
+*Terminal mostrando o servidor FastAPI rodando com logs em tempo real*
+
+### Documentação OpenAPI
+![Documentação](screenshots/docs.png)
+*Documentação automática da API com Swagger UI*
 
 ## ✨ Funcionalidades Core
 
