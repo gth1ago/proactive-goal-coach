@@ -43,10 +43,6 @@ proactive-goal-coach/
 ![Tela Inicial](screenshots/tela_inicial.png)
 *Interface principal do Proactive Goal Coach em funcionamento*
 
-### Frontend - Dashboard
-![Frontend](screenshots/frontend.png)
-*Dashboard com progresso, sugestões contextuais e estatísticas em tempo real*
-
 ### Inserção de Meta
 ![Inserção de Meta](screenshots/insercao_meta.png)
 *Criação de novo objetivo com micro-metas geradas automaticamente pela IA*
@@ -54,6 +50,10 @@ proactive-goal-coach/
 ### Backend em Execução
 ![Backend](screenshots/backend.png)
 *Terminal mostrando o servidor FastAPI rodando com logs em tempo real*
+
+### Frontend em Execução
+![Frontend](screenshots/frontend.png)
+*Terminal mostrando o frontend rodando com logs em tempo real*
 
 ### Documentação OpenAPI
 ![Documentação](screenshots/docs.png)
